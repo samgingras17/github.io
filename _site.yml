@@ -1,0 +1,18 @@
+name: "Samuel Gingras"
+output_dir: "."
+navbar:
+  title: "Samuel Gingras"
+  right:
+    - text: References
+      href: references.html
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/samgingras17
+    - icon: fa-linkedin fa-lg
+      href: https://ca.linkedin.com/in/samuel-gingras-261098103
+output:
+  html_document:
+    theme: paper
+    css: "styles.css"
+    
