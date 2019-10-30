@@ -3,6 +3,10 @@ output_dir: "."
 navbar:
   title: "Samuel Gingras"
   right:
+    - text: Research
+      href: research.html
+    - text: Teaching
+      href: teaching.html
     - text: References
       href: references.html
     - icon: fa-envelope fa-lg
@@ -15,4 +19,4 @@ output:
   html_document:
     theme: paper
     css: "styles.css"
-    
+  

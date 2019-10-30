@@ -1,0 +1,21 @@
+---
+---
+
+&nbsp;
+
+#### Job Market Paper
+[A flexible stochastic conditional duration model](papers/fscd.pdf) (with William J. McCausland)
+
+&nbsp;
+
+#### Working Papers
+[Joint sampling of states and sarameters in state space models](papers/joint-draw.pdf) (with William J. McCausland)
+
+&nbsp;
+
+#### Work in Progress
+FOMC sentiment and Canadian monetary-policy forecasting
+(with Vasia Panousi)  
+  
+HessianToolbox: A MATLAB toolbox for efficiant simulation smoothing in non-linear and non-Gaussian  
+state space models (with William J. McCausland)
