@@ -9,7 +9,7 @@
 &nbsp;
 
 #### Working Papers
-[Joint sampling of states and sarameters in state space models](papers/joint-draw.pdf) (with William J. McCausland)
+[Joint sampling of states and parameters in state space models](papers/joint-draw.pdf) (with William J. McCausland)
 
 &nbsp;
 
