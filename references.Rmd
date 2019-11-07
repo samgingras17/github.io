@@ -4,7 +4,7 @@
 &nbsp;
 
 ##### William J. McCausland
-william.j.mccausland [at] umontreal.ca  
+<william.j.mccausland@umontreal.ca>  
 [Website](https://mccauslw.github.io)  
 Département de sciences économiques  
 Université de Montréal  
@@ -15,7 +15,7 @@ CANADA
 &nbsp;
 
 ##### Vasia Panousi
-vasia.panousi [at] umontreal.ca  
+<vasia.panousi@umontreal.ca>  
 [Website](https://sites.google.com/site/panousi/)  
 Département de sciences économiques  
 Université de Montréal  
@@ -26,7 +26,7 @@ CANADA
 &nbsp;
 
 ##### René Garcia
-rene.garcia [at] umontreal.ca  
+<rene.garcia@umontreal.ca>  
 [Website](https://myrenegarcia.com)  
 Département de sciences économiques  
 Université de Montréal  
