@@ -17,5 +17,5 @@
 FOMC sentiment and Canadian monetary-policy forecasting
 (with Vasia Panousi)  
   
-HessianToolbox: A MATLAB toolbox for efficiant simulation smoothing in non-linear and non-Gaussian  
+M-Hessian: A MATLAB toolbox for efficiant simulation smoothing in non-linear non-Gaussian  
 state space models (with William J. McCausland)
