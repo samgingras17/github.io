@@ -12,11 +12,11 @@ I specialize in Bayesian econometrics and Computational methods, with an interes
 My current research focuses on high-frequency data with the analysis of intra-day durations between financial transactions.
 I am a data enthusiast always interested in new applications.
 
-I am on the Job Market and will be available for interviews on **December 6-7 at the CEEE annual meeting** in Toronto, and on **January 3-5 at the ASA/ASSA annual meeting** in San Diego.
+I am on the Job Market and will be available for interviews on **December 6-7 at the CEEE annual meeting** in Toronto, on **December 18-19 at the EEA metting in Rotterdam**, and on **January 3-5 at the ASA/ASSA annual meeting** in San Diego.
 
 My full CV is available [here](samuel-gingras-cv.pdf). 
 
 &nbsp;
 
 ##### Research interests
-Econometrics - Bayesian methods - Financial Econometrics - Machine learning
+Econometrics - Bayesian analysis - Financial Econometrics - Housing Market - Machine learning
