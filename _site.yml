@@ -5,6 +5,10 @@ navbar:
   right:
     - text: Research
       href: research.html
+    - text: Toolbox
+      href: toolbox.html
+    - text: Data Analysis
+      href: data-analysis.html
     - text: Teaching
       href: teaching.html
     - text: References

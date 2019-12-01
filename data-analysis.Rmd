@@ -1,0 +1,28 @@
+---
+---
+&nbsp;
+
+#### Documentation for doing Data Analysis and Machine Learning with R and Python 
+#####(and other usefull stuff).
+
+&nbsp;
+
+##### R
+- [R for Data Science](https://r4ds.had.co.nz), by Garrett Grolemund and Hadley Wickham
+- [Advanced R](https://adv-r.hadley.nz), by Hadley Wickham
+- [Creating websites in R](http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html), by Emily C. Zabor
+- [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/), by Yihui Xie, J. J. Allaire and Garrett Grolemund
+
+&nbsp;
+
+##### Python 
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com), by Al Sweigart
+- [Natural Language Processing with Python](http://www.datascienceassn.org/sites/default/files/Natural%20Language%20Processing%20with%20Python.pdf), by Steven Bird, Ewan Klein and Edward Loper
+- [Introduction to Python for Econometrics, Statistics and Data Analysis](https://www.kevinsheppard.com/files/teaching/python/notes/python_introduction_2019.pdf), by Kevin Sheppard
+
+&nbsp;
+
+##### Python library
+- [NLTK](https://www.nltk.org) --- A Natural Language Toolkit for python.
+- [Gensim](https://radimrehurek.com/gensim/index.html) --- Doing Topic modelling in python.
+- [Scikit-learn](https://scikit-learn.org/stable/) --- Doing Machine Learning in python.
