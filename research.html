@@ -232,18 +232,23 @@ $(document).ready(function () {
 <div id="job-market-paper" class="section level4">
 <h4>Job Market Paper</h4>
 <p><a href="papers/fscd.pdf">A flexible stochastic conditional duration model</a> (with William J. McCausland)</p>
+<p>We introduce a new stochastic duration model for transaction times in asset markets. We argue against the common practice of (imperfectly) aggregating related trades and instead use a Markov mixture model to account for both the short cluster durations be- tween related trades and the more variable regular durations between unrelated trades. We introduce a normalized conditional distribution for regular durations that is flexible, and also expressible as a perturbation of an exponential distribution, which we argue is a theoretically sound first order model for unrelated financial transactions. Due in part to efficient draws of latent trade intensity, and despite the flexible distribution, numerical efficiency of posterior simulation is considerably better than that of previous studies where duration distributions are parametric. In an empirical application, we find that the conditional hazard function for regular durations varies much less than what is found in many studies. We attribute this to better (and probabilistic) classi- fication of trades as related or not, and using flexible duration distributions instead of parametric distributions whose hazard functions have implausible behaviour near zero.</p>
+<p><em>Keywords</em>: Transaction data, Trade duration; Hazard function; Latent variable model; Non-Gaussian state space model; Markov Chain Monte Carlo</p>
+<p><em>JEL Codes</em>: C11; C41; C51; C58; G10</p>
+<p>Presented at the Seminar on Bayesian Inference in Econometrics and Statistics (SBIES) (Providence, May 2019), Society for Computational Economics 25th International Conference - Computing in Economics and Finance (Ottawa, June 2019). Previous version presented at the 14th CIREQ PhD Students’ Conference (Montreal, May 2018) and European Seminar on Bayesian Econometrics (ESOBE) <a href="docs/fscd-esobe-poster.pdf">poster session</a> (New Orleans, October 2018).</p>
 <p> </p>
 </div>
 <div id="working-papers" class="section level4">
 <h4>Working Papers</h4>
 <p><a href="papers/joint-draw.pdf">Joint sampling of states and parameters in state space models</a> (with William J. McCausland)</p>
+<p>We consider the problem of sampling the posterior distribution in univariate non- linear, non-Gaussian state space models. We propose a new method that updates the parameter vector <span class="math inline">\(\theta\)</span> and the state vector <span class="math inline">\(x\)</span> together as a single block. The proposal <span class="math inline">\((\theta^∗,x^∗)\)</span> is drawn in two steps. The marginal proposal distribution for <span class="math inline">\(\theta^*\)</span> is constructed using approximations of the gradient and Hessian of the log posterior density of <span class="math inline">\(\theta\)</span>. The conditional proposal distribution for <span class="math inline">\(x^∗\)</span> given <span class="math inline">\(\theta^*\)</span> is that described in McCausland (2012). Computation of the approximate gradient and Hessian requires no simulation. Rather, it combines computational by-products of the <span class="math inline">\(x^∗\)</span> draw with a modest amount of additional computation. We compare the numerical efficiency of our posterior simulation with that of the Ancillarity-Sufficiency Interweaving Strategy (ASIS) described in Kastner &amp; Frühwirth-Schnatter (2014), using the stochastic volatility model and the panel of 23 daily exchange rates from that paper. For computing the posterior mean of the volatility persistence parameter, our numerical efficiency is 4-19 times higher; for the volatility of volatility parameter, 15-36 times higher.</p>
 <p> </p>
 </div>
 <div id="work-in-progress" class="section level4">
 <h4>Work in Progress</h4>
-<p>FOMC sentiment and Canadian monetary-policy forecasting (with Vasia Panousi)</p>
-<p>M-Hessian: A MATLAB toolbox for efficiant simulation smoothing in non-linear non-Gaussian<br />
-state space models (with William J. McCausland)</p>
+<p><a href="toolbox.html">M-Hessian: A MATLAB toolbox for efficiant simulation smoothing in non-linear non-Gaussian state space models</a> (with William J. McCausland)</p>
+<p>FOMC sentiment and Canadian monetary-policy forecasting (with Vasia Panousi)<br />
+<img src="docs/fomc-index.pdf" style="width:90%; margin-right:25px; margin-top:5px" align="center"></p>
 </div>
 
 
