@@ -28,13 +28,13 @@ My full CV is available [here](samuel-gingras-cv.pdf).
 ##### Research interests
 <div class="column">
 - Econometrics  
-- Bayesian analysis
+- Bayesian Analysis
 - Statistical Computing  
 </div>
 
 <div class="column">
 - Financial Econometrics 
 - Housing Market  
-- Machine learning
+- Machine Learning
 </div>
 
