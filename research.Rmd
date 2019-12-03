@@ -8,9 +8,9 @@
 
 We introduce a new stochastic duration model for transaction times in asset markets. We argue against the common practice of (imperfectly) aggregating related trades and instead use a Markov mixture model to account for both the short cluster durations between related trades and the more variable regular durations between unrelated trades. We introduce a normalized conditional distribution for regular durations that is flexible, and also expressible as a perturbation of an exponential distribution, which we argue is a theoretically sound first order model for unrelated financial transactions. Due in part to efficient draws of latent trade intensity, and despite the flexible distribution, numerical efficiency of posterior simulation is considerably better than that of previous studies where duration distributions are parametric. In an empirical application, we find that the conditional hazard function for regular durations varies much less than what is found in many studies. We attribute this to better (and probabilistic) classification of trades as related or not, and using flexible duration distributions instead of parametric distributions whose hazard functions have implausible behaviour near zero.
 
-*Keywords*: Transaction data; Trade duration; Hazard function; Latent variable model; Non-Gaussian state space model; Markov chain Monte Carlo
+*Keywords* : Transaction data; Trade duration; Hazard function; Latent variable model; Non-Gaussian state space model; Markov chain Monte Carlo
 
-*JEL Codes*: C11; C41; C51; C58; G10
+*JEL Codes* : C11; C41; C51; C58; G10
 
 Presented at the Seminar on Bayesian Inference in Econometrics and Statistics (SBIES) (Providence, May 2019), Society for Computational Economics 25th International Conference - Computing in Economics and Finance (Ottawa, June 2019). Previous version presented at the 14th CIREQ PhD Students' Conference (Montreal, May 2018) and European Seminar on Bayesian Econometrics (ESOBE) [poster session](docs/fscd-esobe-poster.pdf) (New Orleans, October 2018).
 
@@ -21,9 +21,9 @@ Presented at the Seminar on Bayesian Inference in Econometrics and Statistics (S
 
 We consider the problem of sampling the posterior distribution in univariate non-linear, non-Gaussian state space models. We propose a new method that updates the parameter vector $\theta$ and the state vector $x$ together as a single block. The proposal $(\theta^∗,x^∗)$ is drawn in two steps. The marginal proposal distribution for $\theta^*$ is constructed using approximations of the gradient and Hessian of the log posterior density of $\theta$. The conditional proposal distribution for $x^∗$ given $\theta^*$ is that described in McCausland (2012). Computation of the approximate gradient and Hessian requires no simulation. Rather, it combines computational by-products of the $x^∗$ draw with a modest amount of additional computation. We compare the numerical efficiency of our posterior simulation with that of the Ancillarity-Sufficiency Interweaving Strategy (ASIS) described in Kastner & Frühwirth-Schnatter (2014), using the stochastic volatility model and the panel of 23 daily exchange rates from that paper. For computing the posterior mean of the volatility persistence parameter, our numerical efficiency is 4-19 times higher; for the volatility of volatility parameter, 15-36 times higher.
 
-*Keyword*: Non-linear non-Gaussian state space model; Markov chain Monte Carlo; Accept-reject Metropolis-Hasting; Exhange rate data; Transaction data
+*Keyword* : Non-linear non-Gaussian state space model; Markov chain Monte Carlo; Accept-reject Metropolis-Hasting; Exhange rate data; Transaction data
 
-*JEL Codes*: C11; C15; C32; C58
+*JEL Codes* : C11; C15; C32; C58
 
 &nbsp;
 
