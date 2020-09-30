@@ -5,22 +5,20 @@
 
 ### A MATLAB toolbox for efficiant simulation smoothing in non-linear non-Gaussian state space models
 
-**M-Hessian** is MATLAB toolbox for efficient simulation smoothing in stochastic volatility, count and duration models. The main function implements the HESSIAN (highly efficient simulation smoothing in a nutshell) method; a direct approach for simulation smoothing based on operations on the Hessian matrix of the log likelihood rather than the Kalman filter. Compared to other simulation smoother, the HESSIAN method is a generic approach that update the **full state sequence** as a **single block** using a non-Gaussian proposal density. See McCausland (2012) for details.
+**mhessian** is MATLAB toolbox for efficient simulation smoothing in stochastic volatility models, dynamic count models and duration models. The main function implements the HESSIAN (highly efficient simulation smoothing in a nutshell) method; a direct approach for simulation smoothing based on operations on the Hessian matrix of the log likelihood rather than the Kalman filter. Compared to other simulation smoother, the HESSIAN method is a generic approach that update the **full state sequence** as a **single block** using a non-Gaussian proposal density. See McCausland (2012) for details.
 
 The HESSIAN method can be used as an importance density to compute approximations of integrals, a proposal density for a Markov chain Monte Carlo block updating the conditional distribution of latent state or to perform Laplace-like approximation of a likelihood function. Computational routines are available for the following models:
 
 1. Stochastic volatility with finite mixture of Gaussian innovations
 2. Stochastic volatility with Student's t innovations
-3. Stochastic volatility with Auto-regressive Student's t innovations
-4. Duration with finite mixture of Exponential distributions.
-5. Dynamic counts with Poisson distribution.
-6. Dynamic counts with Gamma-Poisson distribution.
+3. Duration with finite mixture of Exponential distributions.
+4. Dynamic counts with Poisson or Gamma-Poisson distribution.
 
 ##### Documentation
 A companion paper presenting the syntax of the commands as well as various examples is in preparation. (with William J. McCausland)
  
 ##### Status
-In development... **Very Preliminary** version available here.
+In development... **Very Preliminary** version available [here](https://github.com/samgingras17/mhessian).
 
 ##### References
 - McCausland, W.J. (2012), The HESSIAN Method: Highly Efficient Simulation Smoothing, In A Nutshell. *Journal of Econometrics* 168: 189-206.

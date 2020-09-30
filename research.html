@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>research.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,7 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -71,9 +72,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -87,13 +86,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -109,7 +113,6 @@ body {
   padding-top: 69px;
   margin-top: -69px;
 }
-
 .section h2 {
   padding-top: 69px;
   margin-top: -69px;
@@ -129,6 +132,43 @@ body {
 .section h6 {
   padding-top: 69px;
   margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -150,19 +190,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -229,26 +324,29 @@ $(document).ready(function () {
 
 
 <p> </p>
-<div id="job-market-paper" class="section level4">
-<h4>Job Market Paper</h4>
-<p><a href="papers/fscd.pdf">A flexible stochastic conditional duration model</a> (with William J. McCausland)</p>
+<div id="working-papers" class="section level3">
+<h3>Working Papers</h3>
+<div id="a-flexible-stochastic-conditional-duration-model" class="section level4">
+<h4><a href="papers/fscd.pdf">A flexible stochastic conditional duration model</a></h4>
+<p>(with William J. McCausland) <em>To be updated</em></p>
 <p>We introduce a new stochastic duration model for transaction times in asset markets. We argue against the common practice of (imperfectly) aggregating related trades and instead use a Markov mixture model to account for both the short cluster durations between related trades and the more variable regular durations between unrelated trades. We introduce a normalized conditional distribution for regular durations that is flexible, and also expressible as a perturbation of an exponential distribution, which we argue is a theoretically sound first order model for unrelated financial transactions. Due in part to efficient draws of latent trade intensity, and despite the flexible distribution, numerical efficiency of posterior simulation is considerably better than that of previous studies where duration distributions are parametric. In an empirical application, we find that the conditional hazard function for regular durations varies much less than what is found in many studies. We attribute this to better (and probabilistic) classification of trades as related or not, and using flexible duration distributions instead of parametric distributions whose hazard functions have implausible behaviour near zero.</p>
 <p><em>Keywords</em> : Transaction data; Trade duration; Hazard function; Latent variable model; Non-Gaussian state space model; Markov chain Monte Carlo</p>
 <p><em>JEL Codes</em> : C11; C41; C51; C58; G10</p>
 <p>Presented at the Seminar on Bayesian Inference in Econometrics and Statistics (SBIES) (Providence, May 2019), Society for Computational Economics 25th International Conference - Computing in Economics and Finance (Ottawa, June 2019). Previous version presented at the 14th CIREQ PhD Students’ Conference (Montreal, May 2018) and European Seminar on Bayesian Econometrics (ESOBE) <a href="docs/fscd-esobe-poster.pdf">poster session</a> (New Orleans, October 2018).</p>
 <p> </p>
 </div>
-<div id="working-papers" class="section level4">
-<h4>Working Papers</h4>
-<p><a href="papers/joint-draw.pdf">Joint sampling of states and parameters in state space models</a> (with William J. McCausland)</p>
+<div id="joint-sampling-of-states-and-parameters-in-state-space-models" class="section level4">
+<h4><a href="papers/joint-draw.pdf">Joint sampling of states and parameters in state space models</a></h4>
+<p>(with William J. McCausland) <em>To be updated</em></p>
 <p>We consider the problem of sampling the posterior distribution in univariate non-linear, non-Gaussian state space models. We propose a new method that updates the parameter vector <span class="math inline">\(\theta\)</span> and the state vector <span class="math inline">\(x\)</span> together as a single block. The proposal <span class="math inline">\((\theta^∗,x^∗)\)</span> is drawn in two steps. The marginal proposal distribution for <span class="math inline">\(\theta^*\)</span> is constructed using approximations of the gradient and Hessian of the log posterior density of <span class="math inline">\(\theta\)</span>. The conditional proposal distribution for <span class="math inline">\(x^∗\)</span> given <span class="math inline">\(\theta^*\)</span> is that described in McCausland (2012). Computation of the approximate gradient and Hessian requires no simulation. Rather, it combines computational by-products of the <span class="math inline">\(x^∗\)</span> draw with a modest amount of additional computation. We compare the numerical efficiency of our posterior simulation with that of the Ancillarity-Sufficiency Interweaving Strategy (ASIS) described in Kastner &amp; Frühwirth-Schnatter (2014), using the stochastic volatility model and the panel of 23 daily exchange rates from that paper. For computing the posterior mean of the volatility persistence parameter, our numerical efficiency is 4-19 times higher; for the volatility of volatility parameter, 15-36 times higher.</p>
-<p><em>Keyword</em> : Non-linear non-Gaussian state space model; Markov chain Monte Carlo; Accept-reject Metropolis-Hasting; Exhange rate data; Transaction data</p>
+<p><em>Keyword</em> : Non-linear non-Gaussian state space model; Markov chain Monte Carlo; Accept-reject Metropolis-Hasting; Exchange rate data; Transaction data</p>
 <p><em>JEL Codes</em> : C11; C15; C32; C58</p>
 <p> </p>
 </div>
-<div id="work-in-progress" class="section level4">
-<h4>Work in Progress</h4>
-<p><a href="toolbox.html">M-Hessian: A MATLAB toolbox for efficiant simulation smoothing in non-linear non-Gaussian state space models</a> (with William J. McCausland)</p>
+</div>
+<div id="work-in-progress" class="section level3">
+<h3>Work in Progress</h3>
+<p><a href="toolbox.html">mhessian: A MATLAB toolbox for efficiant simulation smoothing in non-linear non-Gaussian state space models</a> (with William J. McCausland)</p>
 <p>FOMC sentiment and Canadian monetary-policy forecasting (with Vasia Panousi)<br />
 <img src="docs/fomc-index.pdf" style="width:90%; margin-right:25px; margin-top:5px" align="center"></p>
 </div>
@@ -270,6 +368,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
