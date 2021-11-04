@@ -14,7 +14,7 @@ navbar:
     - text: References
       href: references.html
     - icon: fa-envelope fa-lg
-      href: contact.html
+      href: mailto:gingras.samuel@icloud.com
     - icon: fa-github fa-lg
       href: http://github.com/samgingras17
     - icon: fa-linkedin fa-lg
