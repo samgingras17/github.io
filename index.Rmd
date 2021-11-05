@@ -22,7 +22,7 @@ I specialize in Bayesian econometrics and Computational methods, with an interes
 My current research focuses on high-frequency data with the analysis of intra-day durations between financial transactions.
 I am a data enthusiast always interested in new applications.
 
-My full CV is available [here](docs/samuel-gingras-cv.pdf). 
+My full CV is available [here](docs/samuel-gingras-cv-academia.pdf). 
 
 &nbsp;
 
