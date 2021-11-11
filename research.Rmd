@@ -1,27 +1,31 @@
 ---
+title: " "
+pagetitle: "Samuel Gingras"
 ---
 
-&nbsp;
+<link rel="stylesheet" href="styles.css" type= "text/css">
+<link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
 ### Working Papers
 
-#### [A flexible stochastic conditional duration model](papers/fscd.pdf)
+#### A flexible stochastic conditional duration model
 (with William J. McCausland) *To be updated* 
 
-We introduce a new stochastic duration model for transaction times in asset markets. We argue against the common practice of (imperfectly) aggregating related trades and instead use a Markov mixture model to account for both the short cluster durations between related trades and the more variable regular durations between unrelated trades. We introduce a normalized conditional distribution for regular durations that is flexible, and also expressible as a perturbation of an exponential distribution, which we argue is a theoretically sound first order model for unrelated financial transactions. Due in part to efficient draws of latent trade intensity, and despite the flexible distribution, numerical efficiency of posterior simulation is considerably better than that of previous studies where duration distributions are parametric. In an empirical application, we find that the conditional hazard function for regular durations varies much less than what is found in many studies. We attribute this to better (and probabilistic) classification of trades as related or not, and using flexible duration distributions instead of parametric distributions whose hazard functions have implausible behaviour near zero.
+We propose a new stochastic conditional duration model (SCD) for the analysis of high-frequency financial transaction data. We identify undesirable features of existing parametric conditional duration densities and propose a new family of flexible conditional densities capable of matching a wide variety of distributions with moderately varying hazard functions. Guided by theoretical consideration from queuing theory, we introduce nonparametric deviations around a central exponential distribution, which we argue is a sound first-order model for financial durations, using a Bernstein density. The resulting density is not only flexible, in the sense that it can approximate any continuous density on $[0,\infty)$ arbitrarily closely, provided it consists of a large enough number of terms, but also amenable to shrinkage towards the exponential distribution. Thank to highly efficiency draws of state variables, numerical efficiency of our posterior simulation compares very favourably with those obtained in previous studies. We illustrate our methods using quotation data on equities traded on the Toronto Stock Exchange. We find that models with our proposed conditional density having less than four terms provide the best fit. The smooth variation found in the hazard functions, together with the possibility of it being non-monotonic, would have been impossible to capture using commonly used parametric specification.
 
-*Keywords* : Transaction data; Trade duration; Hazard function; Latent variable model; Non-Gaussian state space model; Markov chain Monte Carlo
+
+*Keywords* : Transaction data; Hazard function; Latent variable model; Non-Gaussian state space model; Markov chain Monte Carlo
 
 *JEL Codes* : C11; C41; C51; C58; G10
 
-Presented at the Seminar on Bayesian Inference in Econometrics and Statistics (SBIES) (Providence, May 2019), Society for Computational Economics 25th International Conference - Computing in Economics and Finance (Ottawa, June 2019). Previous version presented at the 14th CIREQ PhD Students' Conference (Montreal, May 2018) and European Seminar on Bayesian Econometrics (ESOBE) [poster session](docs/fscd-esobe-poster.pdf) (New Orleans, October 2018).
+<!-- Presented at the Seminar on Bayesian Inference in Econometrics and Statistics (SBIES) (Providence, May 2019), Society for Computational Economics 25th International Conference - Computing in Economics and Finance (Ottawa, June 2019). Previous version presented at the 14th CIREQ PhD Students' Conference (Montreal, May 2018) and European Seminar on Bayesian Econometrics (ESOBE) (New Orleans, October 2018). -->
 
 &nbsp;
 
-#### [Joint sampling of states and parameters in state space models](papers/joint-draw.pdf)
+#### Joint sampling of states and parameters in state space models
 (with William J. McCausland) *To be updated*
 
-We consider the problem of sampling the posterior distribution in univariate non-linear, non-Gaussian state space models. We propose a new method that updates the parameter vector $\theta$ and the state vector $x$ together as a single block. The proposal $(\theta^∗,x^∗)$ is drawn in two steps. The marginal proposal distribution for $\theta^*$ is constructed using approximations of the gradient and Hessian of the log posterior density of $\theta$. The conditional proposal distribution for $x^∗$ given $\theta^*$ is that described in McCausland (2012). Computation of the approximate gradient and Hessian requires no simulation. Rather, it combines computational by-products of the $x^∗$ draw with a modest amount of additional computation. We compare the numerical efficiency of our posterior simulation with that of the Ancillarity-Sufficiency Interweaving Strategy (ASIS) described in Kastner & Frühwirth-Schnatter (2014), using the stochastic volatility model and the panel of 23 daily exchange rates from that paper. For computing the posterior mean of the volatility persistence parameter, our numerical efficiency is 4-19 times higher; for the volatility of volatility parameter, 15-36 times higher.
+We consider the problem of sampling the posterior distribution in univariate non-linear, non-Gaussian state space models. We propose a new method that updates the parameter vector $\theta$ and the state vector $x$ together as a single block. The proposal $(\theta^∗,x^∗)$ is drawn in two steps. The marginal proposal distribution for $\theta^*$ is constructed using approximations of the gradient and Hessian of the log posterior density of $\theta$. The conditional proposal distribution for $x^∗$ given $\theta^*$ is that described in McCausland (2012). Computation of the approximate gradient and Hessian requires no simulation. Rather, it combines computational by-products of the $x^∗$ draw with a modest amount of additional computation. We compare the numerical efficiency of our posterior simulation with that of the Ancillarity-Sufficiency Interweaving Strategy (ASIS) described in Kastner & Frühwirth-Schnatter (2014), using the stochastic volatility model and the panel of 23 daily exchange rates from that paper. For computing the posterior mean of the volatility persistence parameter, our numerical efficiency is 6-27 times higher; for the volatility of volatility parameter, 18-53 times higher. In addition, we analyse in a second example transaction counts using dynamic Poisson and Gamma-Poisson models. Despite non-Gaussianity of the count data, we obtain high numerical efficiency that is not much lower than that reported in McCausland (2012) for a sampler that involves pre-computing the shape of a static posterior distribution of parameters.
 
 *Keyword* : Non-linear non-Gaussian state space model; Markov chain Monte Carlo; Accept-reject Metropolis-Hasting; Exchange rate data; Transaction data
 
@@ -29,10 +33,25 @@ We consider the problem of sampling the posterior distribution in univariate non
 
 &nbsp;
 
+#### Reaching new lows? The pandemic's consequences for electricity markets
+(with David Benatia) Resubmitted at *The Energy Journal*
+
+The COVID-19 crisis has disrupted electricity systems worldwide. This article disentangles the effects of the demand reductions, fuel price drops, and increased forecast errors on New York's day-ahead and real-time markets by combining machine learning and structural econometrics. From March 2020 to February 2021, statewide demand has decreased by 4.6 TWh (-3%) including 4 TWh (-8%) for New York City alone, and the day-ahead market has depreciated by \$250 million (-6%). The real-time market has, however, appreciated by \$15 million (+23%) because of abnormally large forecast errors which significantly undermined system efficiency.
+
+*Keyword* : COVID-19; Demand reductions, Balancing costs, Forecast errors
+
+*JEL Codes* : L94; Q02; Q41; Q47
+
+&nbsp;
+
 ### Work in Progress
 
-[mhessian: A MATLAB toolbox for efficiant simulation smoothing in non-linear non-Gaussian state space models](toolbox.html) (with William J. McCausland)
+Labor Market Duality and Life-Cyle outcomes (with Jonathan Créchet)
+
+mhessian: A MATLAB toolbox for efficiant simulation smoothing in non-linear non-Gaussian state space models (with William J. McCausland)
+
+A hierarchical Bayesian approach to estimate local housing market liquidity
 
 FOMC sentiment and Canadian monetary-policy forecasting (with Vasia Panousi)  
-<img src="docs/fomc-index.pdf" style="width:90%; margin-right:25px; margin-top:5px" align="center">
+<!-- <img src="docs/fomc-index.pdf" style="width:90%; margin-right:25px; margin-top:5px" align="center"> -->
 

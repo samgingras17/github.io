@@ -1,5 +1,10 @@
 ---
+title: " "
+pagetitle: "Samuel Gingras"
 ---
+
+<link rel="stylesheet" href="styles.css" type= "text/css">
+<link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
 &nbsp;
 
@@ -8,9 +13,7 @@
 [Website](https://mccauslw.github.io)  
 Département de sciences économiques  
 Université de Montréal  
-3150, rue Jean-Brillant  
-Montréal, QC H3T 1N8  
-CANADA  
+
 
 &nbsp;
 
@@ -19,9 +22,6 @@ CANADA
 [Website](https://sites.google.com/site/panousi/)  
 Département de sciences économiques  
 Université de Montréal  
-3150, rue Jean-Brillant  
-Montréal, QC H3T 1N8  
-CANADA  
 
 &nbsp;
 
@@ -30,6 +30,3 @@ CANADA
 [Website](https://myrenegarcia.com)  
 Département de sciences économiques  
 Université de Montréal  
-3150, rue Jean-Brillant  
-Montréal, QC H3T 1N8  
-CANADA  

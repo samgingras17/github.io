@@ -2,21 +2,22 @@ name: "Samuel Gingras"
 output_dir: "."
 navbar:
   title: "Samuel Gingras"
-  right:
+  left:
     - text: Research
       href: research.html
     - text: Toolbox
       href: toolbox.html
-    - text: Data Analysis
-      href: data-analysis.html
-    - text: Teaching
-      href: teaching.html
-    - text: References
-      href: references.html
+    # - text: Data Analysis
+    #   href: links.html
+    # - text: Teaching
+    #   href: teaching.html
+  right:
     - icon: fa-envelope fa-lg
       href: mailto:gingras.samuel@icloud.com
+    - icon: ai-cv ai-lg
+      href: ./docs/samuel-gingras-cv.pdf
     - icon: fa-github fa-lg
-      href: http://github.com/samgingras17
+      href: http://github.com/samuelgingras
     - icon: fa-linkedin fa-lg
       href: https://ca.linkedin.com/in/samuel-gingras-261098103
 output:

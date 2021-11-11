@@ -1,10 +1,13 @@
 ---
+title: " "
+pagetitle: "Samuel Gingras"
 ---
 
-&nbsp;
+<link rel="stylesheet" href="styles.css" type= "text/css">
+<link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
-#### Teaching Assistant, Université de Montréal
-* Microeconomics B (Ph.D.), Winter 2016, 2017, 2018 and 2019.
-* Probability for economists (Ph.D.), Fall 2017 and 2018.
-* Mathematics for economists 1 (undergraduate), Winter 2017.
-* Econometrics 2 (undergraduate), Winter 2018.
+#### Université de Montréal (Teaching Assistant)
+* Econometrics (B.A.)
+* Mathematics for economists (B.A.)
+* Microeconomic theory (Ph.D.)
+* Probability for economists (Ph.D.)

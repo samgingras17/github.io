@@ -1,7 +1,10 @@
 ---
+title: " "
+pagetitle: "Samuel Gingras"
 ---
 
-&nbsp;
+<link rel="stylesheet" href="styles.css" type= "text/css">
+<link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
 #### Documentation for doing Data Analysis and Machine Learning with R and Python 
 ##### (and other usefull stuff).

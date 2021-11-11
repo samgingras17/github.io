@@ -1,1 +1,1 @@
-Samuel Gingras' Website
+samuelgingras.github.io

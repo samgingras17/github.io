@@ -1,9 +1,12 @@
 ---
+title: " "
+pagetitle: "Samuel Gingras"
 ---
 
-&nbsp;
+<link rel="stylesheet" href="styles.css" type= "text/css">
+<link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
-### A MATLAB toolbox for efficiant simulation smoothing in non-linear non-Gaussian state space models
+#### A MATLAB toolbox for efficiant simulation smoothing in non-linear non-Gaussian state space models
 
 **mhessian** is MATLAB toolbox for efficient simulation smoothing in stochastic volatility models, dynamic count models and duration models. The main function implements the HESSIAN (highly efficient simulation smoothing in a nutshell) method; a direct approach for simulation smoothing based on operations on the Hessian matrix of the log likelihood rather than the Kalman filter. Compared to other simulation smoother, the HESSIAN method is a generic approach that update the **full state sequence** as a **single block** using a non-Gaussian proposal density. See McCausland (2012) for details.
 
@@ -18,7 +21,7 @@ The HESSIAN method can be used as an importance density to compute approximation
 A companion paper presenting the syntax of the commands as well as various examples is in preparation. (with William J. McCausland)
  
 ##### Status
-In development... **Very Preliminary** version available [here](https://github.com/samgingras17/mhessian).
+In development... A **Very Preliminary** version is available [here](https://github.com/samuelgingras/mhessian).
 
 ##### References
 - McCausland, W.J. (2012), The HESSIAN Method: Highly Efficient Simulation Smoothing, In A Nutshell. *Journal of Econometrics* 168: 189-206.
