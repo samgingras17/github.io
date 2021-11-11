@@ -15,9 +15,9 @@ I graduated from the Université de Montréal in April 2021 with a Ph.D. in econ
 In my dissertation, I develop posterior simulation methods for Bayesian inference in non-Gaussian state space models and econometrics models for the analysis of financial time series.
 
 
-My research interests are in econometrics, Bayesian analysis, time series analysis and statistical computing.
+My main research interests are in econometrics, Bayesian analysis, time series analysis and statistical computing.
 Although most of my current projects are in the field of financial econometrics, particularly on the analysis of high-frequency data, I am a data enthusiast always interested in new applications.
-I am especially interested on big data applications and the intersection of econometrics and machine learning.
+I am especially interested in big data applications and the intersection of econometrics and machine learning.
 
 
 <!-- My full CV is available [here](docs/samuel-gingras-cv.pdf).  -->
